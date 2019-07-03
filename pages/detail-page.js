@@ -16,5 +16,14 @@ function submitComment() {
    comment.classList.add('comment')
    comment.appendChild(h3)
    comment.appendChild(p)
-   console.log(comment)
+   
+   // --- display the elements
+
+   const commentSection = document.getElementById ('comments')
+   commentSection.appendChild(comment)
+
+   //-- reset value
+   inputField.value = null
+   textArea.value = null
+   
 }
