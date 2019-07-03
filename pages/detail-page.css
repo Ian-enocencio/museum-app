@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(253, 174, 99);
+    font-family: 'Barriecito', cursive;
+    text-align: center;
+    margin: 0;
+    padding: center;
+    margin: 0;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+main {
+    background: white;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 2rem 0;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h1 {
+    margin: 5rem 1rem;
+}
+
+h2 {
+    margin: 2rem auto;
+}
+
+img {
+    width: 50%;
+    min-width: 15rem;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.comment {
+    margin: 1rem auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 50%;
+    min-width: 15rem;
+}
+
+form {
+    margin: 2rem auto;
+    width: 50%;
+    min-width: 15rem;
+    padding: 1rem;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    
+}
+
+.formSection {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+label {
+    display: inline-block;
+    width: 80%;
+}
+
+input, 
+textarea {
+    width: 80%;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    min-height: 2rem;
+    font-size: 1.2rem;
+}
