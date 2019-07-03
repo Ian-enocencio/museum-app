@@ -1,5 +1,12 @@
 body {
     background-color: rgb(253, 174, 99);
+    font-family: 'Barriecito', cursive;
+    text-align: center;
+    margin: 0;
+    padding: center;
+    margin: 0;
+    padding: 2rem 0;
+    width: 100%;
 }
 
 main {
@@ -19,6 +26,8 @@ h1 {
     max-width: 80%;
     max-height: 20rem;
     margin: 1rem;
+    border-radius: 50%;
+    opacity: 0.8;
 }
 
 #gallery {
