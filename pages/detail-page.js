@@ -11,6 +11,7 @@ function doesNotPassAllValidations (name, msg) {
 
     return false
 }
+
 function submitComment() {
 // ---- gather data
    const inputField = document.getElementById('name')
